@@ -36,9 +36,7 @@ print("Model loaded successfully.")
 
 
 def get_live_articles(query: str, num_results: int = 5) -> list[tuple[str, str]]:
-    """
-    Fetches live article URLs and content from Google using SerpApi and newspaper3k.
-    """
+    
     print(f"Fetching {num_results} articles for query: '{query}'")
     params = {
         "engine": "google",

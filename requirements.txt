@@ -1,0 +1,16 @@
+
+gradio
+
+
+sentence-transformers
+
+torch
+
+
+newspaper3k
+
+
+google-search-results
+
+
+nltk
